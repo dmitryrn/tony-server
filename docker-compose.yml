@@ -1,0 +1,20 @@
+version: '3.0'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: test
+      POSTGRES_USER: test
+      POSTGRES_DB: test
+    ports:
+      - 5432:5432
+  server:
+    image: server
+    build: .
+    ports:
+      - 80:3001
+    links:
+      - db:db
+    restart: unless-stopped
+    command: node dist/index.js

@@ -1,0 +1,13 @@
+{
+  "name": "tony-server",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc --outDir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
+}
