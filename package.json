@@ -9,13 +9,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/pg": "^7.14.1",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
     "ts-node-dev": "^1.0.0-pre.44"
   },
   "dependencies": {
     "@types/koa": "^2.11.0",
     "@types/koa-router": "^7.4.0",
+    "dotenv": "^8.2.0",
     "koa": "^2.11.0",
     "koa-router": "^8.0.6",
-    "typescript": "^3.7.5"
+    "pg": "^7.17.1",
+    "typescript": "^3.7.5",
+    "winston": "^3.2.1"
   }
 }
