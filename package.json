@@ -2,12 +2,20 @@
   "name": "tony-server",
   "version": "0.0.1",
   "scripts": {
-    "build": "tsc --outDir dist"
+    "build": "tsc --outDir dist",
+    "dev": "ts-node-dev src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "dependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-router": "^7.4.0",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.6",
     "typescript": "^3.7.5"
   }
 }

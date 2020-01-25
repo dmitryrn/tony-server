@@ -13,8 +13,7 @@ services:
     image: server
     build: .
     ports:
-      - 80:3001
+      - 3000:3000
     links:
       - db:db
     restart: unless-stopped
-    command: node dist/index.js
